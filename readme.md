@@ -8,23 +8,32 @@ This project implements an emotion detection model using BERT (Bidirectional Enc
 
 The emotion categories targeted by the model are as follows:
 
-1. Admiration
-2. Amusement
-3. Anger
-4. Annoyance
-5. Approval
-6. Caring
-7. Confusion
-8. Curiosity
+1. Anger
+2. Disgust
+3. Grief
+4. Joy
+5. Nervousness
+6. Neutral
+7. Optimism
+8. Sadness
 
 ## Dependencies
 
 Make sure to install the required dependencies before running the code:
 
-```bash
-pip install tensorflow transformers scikit-learn
+## Bash:
+```
+pip install tensorflow transformers scikit-learn streamlit matplotlib
 ```
 
+## Run the APP:
+``` 
+streamlit run app.py
+```
+
+```
+Access the app in your browser at http://localhost:8501
+```
 
 ## Project Structure
 
@@ -36,3 +45,10 @@ pip install tensorflow transformers scikit-learn
     - `preprocessing.py`
   - `readme.md`
   - `trial.ipynb`
+  - `test.ipynb`
+
+## How to Use
+1. Enter text in the provided input field.
+2. Click the "Detect Emotion" button.
+3. View detailed feedback and emotion prediction results.
+4. Explore the dashboard for visual representations of emotion probabilities.
