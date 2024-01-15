@@ -26,6 +26,10 @@ Make sure to install the required dependencies before running the code:
 pip install tensorflow transformers scikit-learn streamlit matplotlib
 ```
 
+### Additional File
+```
+Add Berta Folder in your local device through this link https://drive.google.com/drive/folders/10qiR2bEnyX7OY9j3K72YDgJGo8380Z88?usp=sharing
+```
 ## Run the APP:
 ``` 
 streamlit run app.py
